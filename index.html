@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DairySync AI - Intelligent Supply Chain & Production Management System | PT Greenfields Indonesia</title>
+  <meta name="description"
+    content="Intelligent end-to-end dairy supply chain, cold-chain GPS tracking, AI quality grading, automated CIP flavor scheduling, and executive operations dashboard for PT Greenfields Indonesia.">
+  <meta name="theme-color" content="#064E3B">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0fdf4',
+              100: '#dcfce7',
+              200: '#bbf7d0',
+              300: '#86efac',
+              400: '#4ade80',
+              500: '#22c55e',
+              600: '#16a34a',
+              700: '#15803d',
+              800: '#166534',
+              900: '#064e3b',
+              950: '#022c22'
+            }
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-emerald-600 selection:text-white">
+
+  <!-- Main Root Container -->
+  <div id="app" class="min-h-screen flex flex-col justify-between">
+    <!-- App rendered reactively by DairySyncApp.init() -->
+    <div class="flex items-center justify-center min-h-screen text-slate-500">
+      <div class="flex items-center gap-3">
+        <span class="w-3.5 h-3.5 rounded-full bg-emerald-700 animate-ping"></span>
+        <span class="text-xs font-mono tracking-wider font-semibold">INITIALIZING DAIRYSYNC AI ENGINE...</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/icons.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/components/map.js"></script>
+  <script src="js/components/checklist.js"></script>
+  <script src="js/components/trouble.js"></script>
+  <script src="js/components/executive_report.js"></script>
+  <script src="js/components/farm.js"></script>
+  <script src="js/components/logistics.js"></script>
+  <script src="js/components/lab.js"></script>
+  <script src="js/components/production.js"></script>
+  <script src="js/components/warehouse.js"></script>
+  <script src="js/components/schedule.js"></script>
+  <script src="js/components/pm.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

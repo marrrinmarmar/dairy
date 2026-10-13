@@ -1,0 +1,12 @@
+{
+  "name": "dairysync-ai",
+  "version": "1.0.0",
+  "description": "PT Greenfields Indonesia - DairySync AI Intelligent Supply Chain & Production Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["dairy", "iot", "supply-chain", "production", "greenfields", "ai-dashboard"],
+  "author": "Senior Full-Stack & AI Systems Architect",
+  "license": "MIT"
+}
